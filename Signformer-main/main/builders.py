@@ -12,7 +12,7 @@ from torch.optim import lr_scheduler
 
 # Optimization Algorithms
 from torch.optim import Optimizer
-from sophia import SophiaG
+from sophia_opt import SophiaG
 
 
 def build_gradient_clipper(config: dict) -> Optional[Callable]:
